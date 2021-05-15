@@ -9,7 +9,12 @@ Yocto manifest file for geophone project
 
 # build
 
-    $ 
+    $ source poky/oe-init-build-env build
+    $ bitbake geophone-image
+
+## build SDK
+
+    $ bitbake geophone-image -c populate_sdk
 
 # repo tool
 
