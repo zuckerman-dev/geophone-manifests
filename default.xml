@@ -16,7 +16,7 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="poky" revision="refs/heads/dunfell" remote="yocto" />
+  <project name="poky" revision="refs/heads/dunfell" path="geophone" remote="yocto" />
   <project name="meta-raspberrypi" revision="refs/heads/dunfell"  remote="yocto" path="geophone/meta-raspberrypi" />
   <project name="meta-openembedded" revision="refs/heads/dunfell"  remote="oe" path="geophone/meta-openembedded" />
   <project name="meta-clang" revision="refs/heads/dunfell"  remote="clang" path="geophone/meta-clang" />
