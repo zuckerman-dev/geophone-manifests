@@ -1,6 +1,13 @@
 # geophone-manifests
 
-Yocto manifest file for geophone project
+Yocto manifest file for geophone project. 
+
+# hardware
+
+Currently supported hardware
+
+* Raspberry PI 3 
+* Raspberry PI Zero
 
 # setup
 
@@ -9,10 +16,18 @@ Yocto manifest file for geophone project
 
 # build
 
-    $ source poky/oe-init-build-env build
+
+Init bitbake environment.
+
+    $ source geophone/oe-init-build-env build
+
+To build the main image
+
     $ bitbake geophone-image
 
 ## build SDK
+
+To build SDK for `geophone-image`
 
     $ bitbake geophone-image -c populate_sdk
 
