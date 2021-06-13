@@ -19,6 +19,6 @@
   <project name="meta-raspberrypi" revision="refs/heads/dunfell"  remote="yocto" path="geophone/meta-raspberrypi" />
   <project name="meta-openembedded" revision="refs/heads/dunfell"  remote="oe" path="geophone/meta-openembedded" />
   <project name="meta-clang" revision="refs/heads/dunfell"  remote="clang" path="geophone/meta-clang" />
-  <project name="meta-geophone" revision="refs/heads/ads1256-kernel-driver"  remote="zdev" path="geophone/meta-geophone" />
+  <project name="meta-geophone" revision="refs/heads/dunfell"  remote="zdev" path="geophone/meta-geophone" />
 
 </manifest>
