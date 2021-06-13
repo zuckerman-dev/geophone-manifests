@@ -7,7 +7,6 @@
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="clang" fetch="git://github.com/kraj" />
   <remote name="zdev" fetch="git://github.com/zuckerman-dev" />
-  <remote name="jumpnow" fetch="git://github.com/jumpnow" />
   
 
   <!-- List all the repositories you want to fetch -->
