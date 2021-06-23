@@ -7,7 +7,7 @@
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="clang" fetch="git://github.com/kraj" />
   <remote name="zdev" fetch="git://github.com/zuckerman-dev" />
-  
+  <remote name="sbabic" fetch="git://github.com/sbabic" />  
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -20,5 +20,6 @@
   <project name="meta-openembedded" revision="refs/heads/dunfell"  remote="oe" path="geophone/meta-openembedded" />
   <project name="meta-clang" revision="refs/heads/dunfell"  remote="clang" path="geophone/meta-clang" />
   <project name="meta-geophone" revision="refs/heads/dunfell"  remote="zdev" path="geophone/meta-geophone" />
+  <project name="meta-swupdate" revision="refs/heads/dunfell" remote="sbabic" path="geophone/meta-swupdate" />
 
 </manifest>
