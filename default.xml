@@ -3,11 +3,11 @@
 
   <!-- remotes -->
 
-  <remote name="yocto" fetch="git://git.yoctoproject.org" />
-  <remote name="oe" fetch="git://git.openembedded.org" />
-  <remote name="clang" fetch="git://github.com/kraj" />
-  <remote name="zdev" fetch="git://github.com/zuckerman-dev" />
-  <remote name="sbabic" fetch="git://github.com/sbabic" />  
+  <remote name="yocto" fetch="https://git.yoctoproject.org" />
+  <remote name="oe" fetch="https://git.openembedded.org" />
+  <remote name="clang" fetch="https://github.com/kraj" />
+  <remote name="zdev" fetch="https://github.com/zuckerman-dev" />
+  <remote name="sbabic" fetch="https://github.com/sbabic" />  
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
