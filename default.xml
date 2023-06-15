@@ -17,12 +17,12 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="poky" revision="refs/heads/master" path="geophone" remote="yocto" />
-  <project name="meta-raspberrypi" revision="refs/heads/master"  remote="yocto" path="geophone/meta-raspberrypi" />
-  <project name="meta-openembedded" revision="refs/heads/master"  remote="oe" path="geophone/meta-openembedded" />
-  <project name="meta-clang" revision="refs/heads/master"  remote="clang" path="geophone/meta-clang" />
-  <project name="meta-geophone" revision="refs/heads/main"  remote="zdev" path="geophone/meta-geophone" />
-  <project name="meta-swupdate" revision="refs/heads/master" remote="sbabic" path="geophone/meta-swupdate" />
-  <project name="meta-ros" revision="refs/heads/master" remote="ros" path="geophone/meta-ros" />
+  <project name="poky" revision="refs/heads/kirkstone" path="geophone" remote="yocto" />
+  <project name="meta-raspberrypi" revision="refs/heads/kirkstone"  remote="yocto" path="geophone/meta-raspberrypi" />
+  <project name="meta-openembedded" revision="refs/heads/kirkstone"  remote="oe" path="geophone/meta-openembedded" />
+  <project name="meta-clang" revision="refs/heads/kirkstone"  remote="clang" path="geophone/meta-clang" />
+  <project name="meta-geophone" revision="refs/heads/kirkstone"  remote="zdev" path="geophone/meta-geophone" />
+  <project name="meta-swupdate" revision="refs/heads/kirkstone" remote="sbabic" path="geophone/meta-swupdate" />
+  <project name="meta-ros" revision="refs/heads/kirkstone" remote="ros" path="geophone/meta-ros" />
 
 </manifest>
