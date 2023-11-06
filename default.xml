@@ -7,6 +7,7 @@
   <remote name="oe" fetch="https://git.openembedded.org" />
   <remote name="clang" fetch="https://github.com/kraj" />
   <remote name="zdev" fetch="https://github.com/zuckerman-dev" />
+  <remote name="mkts" fetch="https://github.com/miketsukerman" />
   <remote name="sbabic" fetch="https://github.com/sbabic" />
   <remote name="ros" fetch="https://github.com/ros/" />
   
@@ -23,6 +24,6 @@
   <project name="meta-clang" revision="refs/heads/kirkstone"  remote="clang" path="geophone/meta-clang" />
   <project name="meta-geophone" revision="refs/heads/kirkstone"  remote="zdev" path="geophone/meta-geophone" />
   <project name="meta-swupdate" revision="refs/heads/kirkstone" remote="sbabic" path="geophone/meta-swupdate" />
-  <project name="meta-ros" revision="refs/heads/kirkstone" remote="ros" path="geophone/meta-ros" />
+  <project name="meta-ros" revision="refs/heads/kirkstone" remote="mkts" path="geophone/meta-ros" />
 
 </manifest>
