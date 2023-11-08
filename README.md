@@ -11,7 +11,7 @@ Currently supported hardware
 
 # setup
 
-    ➜  repo init -u git@github.com:zuckerman-dev/geophone-manifests.git -b warrior
+    ➜  repo init -u git@github.com:zuckerman-dev/geophone-manifests.git -b kirkstone
     ➜  repo sync
 
 # build
